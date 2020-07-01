@@ -19,11 +19,11 @@
 }
 
 .upper-box{
-  /* background-color: yellow; */
   color: white;
   height: 290px;
   margin-bottom: 5px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .upper-header{
@@ -33,7 +33,7 @@
   background-image: url(../img/bosco.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  border: 5px solid white;
+  border: 10px solid white;
 }
 
 .header-bottom{
@@ -64,8 +64,7 @@
   display: inline-block;
   font-size: 60px;
   padding: 2px;
-  border: 2px solid white;
-  margin-left: 12%;
+  border: 5px solid white;
 }
 .central-logo h3{
   padding-top: 30px;
@@ -73,6 +72,7 @@
 
 main{
   margin: 1% 0;
+
 }
 
 main::after{
@@ -80,12 +80,33 @@ main::after{
   display: table;
   clear:both;
 }
+.fa-rss-square{
+  color: orange;
+  font-size: 40px;
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
 
 .colonna1{
   width: 23%;
   margin-right: 2%;
-  background-color: pink;
+  background-color: white;
   float: left;
+}
+
+.colonna1 h2{
+  display: inline-block;
+  color: grey;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.colonna1 h2::after{
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .colonna2{
