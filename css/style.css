@@ -165,6 +165,47 @@ main::after{
 .footer{
   width: 1000px;
   height: 100px;
-  background-color: blue;
+  background-color: white;
+  border-radius: 5px;
   margin-top: 5px;
+}
+
+.footer p{
+  color: lightgrey;
+  border-bottom: 2px solid lightgrey;
+  text-align: center;
+}
+
+.logo-container{
+  position: relative;
+  width: 33%;
+  height: 100%;
+  float: left;
+}
+
+.fa-facebook-f{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(50%,50%);
+  color: grey;
+  font-size: 20px;
+}
+
+.fa-instagram{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(50%,50%);
+  color: grey;
+  font-size: 20px
+}
+
+.fa-github{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateX(50%,50%);
+  color: grey;
+  font-size: 20px;
 }
