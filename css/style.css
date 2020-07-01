@@ -50,6 +50,12 @@
   font-weight: 1000;
 }
 
+.header-bottom li:hover{
+  background-color: lightgrey;
+  text-shadow: 2px 2px 2px black;
+}
+
+
 .central-logo{
   position: absolute;
   top: 50%;
