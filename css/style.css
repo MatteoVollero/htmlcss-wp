@@ -7,6 +7,7 @@
 .backgorund-container{
   width: 100vw;
   height: 100vh;
+  font-family: 'Roboto Condensed', sans-serif;
   /* background-color: black; */
   background-image: url(../img/legno.png);
 }
@@ -20,7 +21,7 @@
 .upper-box{
   /* background-color: yellow; */
   color: white;
-  height: 285px;
+  height: 290px;
   margin-bottom: 5px;
   text-transform: uppercase;
 }
@@ -33,6 +34,22 @@
   background-size: cover;
   background-repeat: no-repeat;
   border: 5px solid white;
+}
+
+.header-bottom{
+  width: 1000px;
+  height: 30px;
+  background-color: grey;
+  text-align: center;
+}
+
+.header-bottom li{
+  display: inline-block;
+  font-size: 12px;
+  color: white;
+  line-height: 30px;
+  margin-right: 20px;
+  font-weight: 1000;
 }
 
 .central-logo{
