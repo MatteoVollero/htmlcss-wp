@@ -64,10 +64,10 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .central-logo h1{
-  text-align: center;
   display: inline-block;
   font-size: 60px;
   padding: 2px;
